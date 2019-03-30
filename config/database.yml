@@ -52,3 +52,5 @@ production:
   database: deploytest_production
   username: deploytest
   password: <%= ENV['DEPLOYTEST_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
+b
